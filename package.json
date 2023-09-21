@@ -1,0 +1,36 @@
+{
+  "name": "expect-process-output",
+  "version": "0.0.1",
+  "description": "await specific output from ChildProcess's stdout and stderr; basically expect(1) for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-with-debug": "DEBUG=*,-emittery* npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericprud/ExpectProcessOutput.git"
+  },
+  "keywords": [
+    "node",
+    "expect",
+    "ChildProcess"
+  ],
+  "author": "Eric Prud'hommeaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericprud/ExpectProcessOutput/issues"
+  },
+  "homepage": "https://github.com/ericprud/ExpectProcessOutput#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/*.test.js"
+    ]
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
+  }
+}
